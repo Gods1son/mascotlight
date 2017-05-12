@@ -47,10 +47,14 @@
             width: 100%;
             height: 40px;
         }
+        #images {
+            border: 2px groove green;
+            border-radius: 10px;
+        }
     </style>
 </head>
 
-<header id="headmaster">
+<header id="headmaster" style="margin-bottom:10px;">
  <ul id="slide-out" class="side-nav" style="background-color:springgreen;">
     <li style="padding-left:10px"><h5><b>Made in 9ja</b></h5></li>
      <li><hr style="background-color:darkred">
@@ -87,8 +91,8 @@
      </li>
   </ul>
 <!--include video here-->
-<div id="videoholder">
-<img src="loading.gif" id="videoopen">
+<div id="videoholder" style="width:100vw;height:100vh">
+<img src="loading.gif" id="videoopen" style="width:100%;height:40%;">
 </div>
 
     <div class="row">
@@ -131,14 +135,16 @@
 
 
 <!--<input type="button" id="research" value="Click to know more about him/her" onclick="openLink()">-->
-<div id="imgholder"><img id="images" class="materialboxed responsive-img">
-    <div id="sociallinks">
+<div class="row"><div id="imgholder123" class="col s11" style="float:left;"><img id="images" class="materialboxed responsive-img">
+    <div id="sociallinks123" class="col s2" style="float:right;margin-right:-14%;margin-top:-70%;">
         <img src="images/facebook2.png" width="90%" onclick="window.plugins.socialsharing.shareViaFacebookWithPasteMessageHint('Hello, do you play Naija Masctos, It is a very cool and educative game', null /* img */, null /* url */, 'Please long press on your screen and select paste to share. Thanks',null,null)"><br>
         <img src="images/Whatsappmain.png" width="90%" onclick="window.plugins.socialsharing.shareViaWhatsApp('Hello, do you play Naija Masctos, It is a very cool and educative game')"><br>
         <img src="images/Twitter.png" width="90%" onclick="window.plugins.socialsharing.shareViaTwitter('Hello, do you play Naija Masctos, It is a very cool and educative game')"><br>
         <img src="images/sms.png" width="90%" onclick="window.plugins.socialsharing.shareViaSMS('Hello, do you play Naija Masctos, It is a very cool and educative game')">
     </div>
-    </div><br>
+    </div>
+    </div>
+    <br>
     <!--TRYING THE CLICKABLE BUTTONS-->
 <div id="clickable" class="row">
 

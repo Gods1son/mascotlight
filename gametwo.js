@@ -1276,8 +1276,9 @@ $('#options input').click(function(e){
     e.preventDefault();
     sounding();
     if($('.inputx:empty:first').text($(this).val()).length);
+
         //change to .hide()
-        $(this).hide();
+       $(this).hide();
     emptyalert();
     trykicker();
         })
