@@ -19,6 +19,35 @@
 <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
 <script src="hopscotch.js"></script>
 <script src ="gametwo.js"></script>
+    <style>
+        .entry123{
+            width:100%;
+            height: 100%;
+           /* margin-left: -16px;*/
+            font-size: 1.5em;
+            text-transform: uppercase;
+            background-color: forestgreen;
+            color:white;
+            border-radius: 6px;
+        }
+        .col.s2{
+            margin-right: 5px;
+            padding: 0;
+            width: 12.5%;
+            background-color: darkslategray;
+            border-radius: 6px;
+            height: 30px;
+        }
+        #hinter123{
+            background-color: lightcyan;
+            color:darkred;
+            font-size: 1.3em;
+            font-weight: 600;
+            border-radius: 10px;
+            width: 100%;
+            height: 40px;
+        }
+    </style>
 </head>
 
 <header id="headmaster">
@@ -37,7 +66,7 @@
     </li><hr style="background-color:darkred">
     <li>
       <div class="collapsible-header" style="font-size:1.4em">Instruction <span style="float:right;font-size:5px;color:darkred"><i>click</i></span></div>
-      <div class="collapsible-body" style="font-size:1.2em;padding-left:5px;line-height:1.5em;"><span>NaijaMascots® is a word puzzle game. Do you know who the mascot is? Then guess by filling in the empty boxes. Be sure to read about a mascot in the ‘Link About Mascots’ whenever you get a mascot right. Enjoy!</span></div>
+      <div class="collapsible-body" style="font-size:1.2em;padding-left:5px;line-height:1.5em;"><span>NaijaMascots® is a word puzzle game. However, you need to be conversant with some popular faces in Nigeria to be very good at it. Once you’ve taken a look at a Mascot, type the name of the person you think it is by selecting from the group of letters below the screen. Once you click a letter from the group of letters, it will automatically fill the blank space below the picture. If you want to remove one of the letters you’ve previously chosen, just click it and it will return to the group of letters where you selected it from. If you aren’t too sure about a mascot and you get stuck, use the HELP! Button. Once you get a Mascot right, a link drops under the ‘Link About Mascots’ tab which is under the Menu tab; and you can click on the link to read more about the Mascots. However, the link disappears once the NaijaMascots® game app has been closed. Although, the game will still continue from where you left off once you reopen the game.</span></div>
     </li><hr style="background-color:darkred">
     <li>
       <div class="collapsible-header" style="font-size:1.4em">Links about Mascots <span style="float:right;font-size:5px;color:darkred"><i>click</i></span></div>
@@ -61,11 +90,17 @@
 <div id="videoholder">
 <img src="loading.gif" id="videoopen">
 </div>
-    <a href="#" data-activates="slide-out" class="button-collapse" id="menubar">&#9776; MENU</a>
-<!--<span id="menubar" onclick="openNav()">&#9776; Menu</span>-->
-<!--<h1 id="tophead">Naija Mascots</h1>--><div id="rightscore"><img src="images/coin.png" width="5%"> <span id="score" class="result1">0</span></div>
-<div id="ish">
-     <span class="label">Level:</span> <span id="level" class="result">1</span><span class="label"> Stage:</span> <span id="stage" class="result">1</span></div>
+
+    <div class="row">
+
+    <div class="col s6"><a href="#" data-activates="slide-out" class="button-collapse" id="menubar123" style="font-size:1.3em;font-weight:bold;">&#9776; MENU</a></div>
+    <div class="col s6"><div id="rightscore123"><img src="images/coin.png" width="8%" style="margin-left:60%;"> <span id="score" class="result1">0</span></div></div>
+
+        <div id="ish"></div>
+        <div class="col s6"><span class="label" style="margin-left:45%;">Level:</span> <span id="level" class="result">1</span></div>
+        <div class="col s6"><span class="label"> Stage:</span> <span id="stage" class="result">1</span></div>
+
+    </div>
 </header>
 
 <body>
@@ -96,7 +131,7 @@
 
 
 <!--<input type="button" id="research" value="Click to know more about him/her" onclick="openLink()">-->
-<div id="imgholder"><img id="images" class="materialboxed">
+<div id="imgholder"><img id="images" class="materialboxed responsive-img">
     <div id="sociallinks">
         <img src="images/facebook2.png" width="90%" onclick="window.plugins.socialsharing.shareViaFacebookWithPasteMessageHint('Hello, do you play Naija Masctos, It is a very cool and educative game', null /* img */, null /* url */, 'Please long press on your screen and select paste to share. Thanks',null,null)"><br>
         <img src="images/Whatsappmain.png" width="90%" onclick="window.plugins.socialsharing.shareViaWhatsApp('Hello, do you play Naija Masctos, It is a very cool and educative game')"><br>
@@ -105,17 +140,24 @@
     </div>
     </div><br>
     <!--TRYING THE CLICKABLE BUTTONS-->
-<div id="clickable">
+<div id="clickable" class="row">
 
 </div>
 
     <div id="options">
-    <p><div><input type="button" id="0" class="entry"></div><div><input type="button" id="1" class="entry"></div><div><input type="button" id="2"  class="entry"></div><div><input type="button" id="3"  class="entry"></div><div><input type="button" id="4"  class="entry"></div><div><input type="button" id="5" class="entry"></div><div><input type="button" id="6" class="entry"></div></p><br>
-    <p><div><input type="button" id="7" class="entry"></div><div><input type="button" id="8" class="entry"></div><div><input type="button" id="9" class="entry"></div><div><input type="button" id="10" class="entry"></div><div><input type="button" id="11" class="entry"></div><div><input type="button" id="12" class="entry"></div><div><input type="button" id="13" class="entry"></div></p><br>
+        <div class="row" style="display:inline-block;width:100%;margin-bottom:10px">
+    <div class="col s2"><input type="button" id="0" class="entry123"></div><div class="col s2"><input type="button" id="1" class="entry123"></div><div class="col s2"><input type="button" id="2"  class="entry123"></div><div class="col s2"><input type="button" id="3"  class="entry123"></div><div class="col s2"><input type="button" id="4"  class="entry123"></div><div class="col s2"><input type="button" id="5" class="entry123"></div><div class="col s2"><input type="button" id="6" class="entry123"></div>
+        </div><br>
+        <div class="row" style="display:inline-block;width:100%;">
+    <div class="col s2"><input type="button" id="7" class="entry123"></div><div class="col s2"><input type="button" id="8" class="entry123"></div><div class="col s2"><input type="button" id="9" class="entry123"></div><div class="col s2"><input type="button" id="10" class="entry123"></div><div class="col s2"><input type="button" id="11" class="entry123"></div><div class="col s2"><input type="button" id="12" class="entry123"></div><div class="col s2"><input type="button" id="13" class="entry123"></div><br>
+        </div>
     </div>
 
 <div class="controller">
-<p><button onclick="helperMan()" id="hinter">Help!</button> <span id="help"></span></p>
+    <div class="row">
+    <div class="col s3" style="padding:0;"><button onclick="helperMan()" id="hinter123">Help!</button></div>
+    <div class="col s9"><span id="help"></span></div>
+    </div>
 </div>
 <span id="result"></span><br>
 <audio loop="loop" src="beep50.mp3" id="music"></audio>

@@ -1263,7 +1263,7 @@ $(document).ready(
         $(".button-collapse").sideNav();
         $('.collapsible').collapsible();
         $('.materialboxed').materialbox();
-        closevideo();
+      closevideo();
         toury();
         loading();
 })

@@ -139,7 +139,7 @@ html {
 
 }
 
-#options div {
+/*#options div {
     width: 12.5vw;
     display: inline-block;
     height: 33px;
@@ -150,7 +150,7 @@ html {
     border-radius: 4px;
     text-align: center;
 
-}
+}*/
 
 .master {
     width:80px;
