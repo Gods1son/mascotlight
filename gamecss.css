@@ -1,5 +1,6 @@
 * {padding:0;
 margin:0;}
+
 header  {
     color:black;
    /* text-align: center;
@@ -112,6 +113,8 @@ html {
     margin-right: -80px;
     clear: right;
 }*/
+
+
 /*text input design*/
 #trial {
    border: 2px ridge green;
@@ -296,76 +299,6 @@ button.accordion.active:after {
     font-weight: 200;
 }
 
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-@media screen and (max-width: 320px) {
-    #research {margin-left: 55px;}
-    .entry {font-size: 1.05em;}
-    #options div {width: 12vw}
-}
-
-@media screen and (min-height: 570px) and (max-height: 640px) {
- /* #images {height: 44vh;}*/
-  .entry {font-size: 1.3em; width: 12vw; height: 5.5vh
-    }
-    #options div {width:12.5vw; height:5.5vh}
-      #research {margin-left: 65px;}
-    #help, #result {font-size: 1.3em;}
-    #clue {font-size: 1.4em;}
-    .inputx {height:40px}
-}
-
-@media screen and (min-height: 720px) and (max-height: 890px) {
- /* #images {height: 40vh;}*/
-      .entry {font-size: 1.3em; width: 13vw;
-    }
-     #options div {width:12.5vw; height:5.5vh}
-      #research {margin-left: 65px;}
-    header {height: 7vh;padding-top: 10px;}
-    .controls {font-size: 1.3em;}
-    .controller {font-size: 1.3em;}
-    #help, #result {font-size: 1.2em;}
-    #clue {font-size: 1.6em;}
-    #hinter {width:35vw;}
-}
-
-@media screen and (min-width: 500px) and (min-height: 900px) {
-  header {font-size: 2em;height: auto}
-    #research {margin-left: 18vw;}
-    #menubar {font-size: 1.3em;}
-    #research {font-size: 1.8em;margin-left: 24vw;}
-    #clue {font-size: 2em;}
-   /* #images {margin-left: 13vw; height:40vh}*/
-    #trial {font-size: 1.9em; height: 4vh;margin-left: 13vw;}
-    .controls {font-size: 1.7em;margin-left: 20vw;}
-    .controller {font-size: 1.7em;margin-left: 20vw;}
-    #check , #hinter {width:25vw;}
-    #space, #backspace {width:25vw;}
-    #options {font-size: 1.7em;margin-left: 16vw;}
-    .inputx {height:60px;width:50px;font-size: 3em;margin-top:20px;}
-    .entry {margin-right: 6vw;}
-    #result, #help {font-size: 2em; font-weight: bold;margin-left: 27vw;}
-}
-
-@media screen and (min-width: 750px) and (min-height: 1000px){
-    /* #images {margin-left: 0vw; height:45vh; margin-right: -200px;}*/
-    #sociallinks {padding-top: 70px;padding-right: 40px;}
-    .inputx {height:60px;width:50px;font-size: 3em;margin-top:20px;}
-    #options {margin-left: 5vw;}
-    #options div {height:60px}
-    .entry {height: 50px;}
-    #hinter {margin-left: -110px;}
-    #help {margin-left: 10px;}
-    .side-nav{width:70vw;}
-    .side-nav .collapsible-header {height:2em;}
-    #switch1, #darktheme {zoom:2;}
-    h5 {font-size:1.5em}
-}
-
 .inputx {
     width:23px;
     margin-right: 5px;
@@ -516,3 +449,83 @@ button.accordion.active:after {
      width: 100vw;
     margin-top: 50%;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    #menubar123{font-size:2.3em;}
+    .result1{font-size: 1.8em;}
+    .label{font-size: 1.8em;}
+    .result{font-size: 1.8em;}
+    .inputx{width:50px;height:50px;text-align: center;font-size: 2.2em;}
+    .col.s2{height:60px;}
+    #hinter123{font-size: 2.5em;height: 60px;}
+    #help{font-size: 2em;}
+    #result{font-size: 2em;}
+}
+
+/*
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width: 320px) {
+    #research {margin-left: 55px;}
+    .entry {font-size: 1.05em;}
+    #options div {width: 12vw}
+}
+
+@media screen and (min-height: 570px) and (max-height: 640px) {
+  .entry {font-size: 1.3em; width: 12vw; height: 5.5vh
+    }
+    #options div {width:12.5vw; height:5.5vh}
+      #research {margin-left: 65px;}
+    #help, #result {font-size: 1.3em;}
+    #clue {font-size: 1.4em;}
+    .inputx {height:40px}
+}
+
+@media screen and (min-height: 720px) and (max-height: 890px) {
+      .entry {font-size: 1.3em; width: 13vw;
+    }
+     #options div {width:12.5vw; height:5.5vh}
+      #research {margin-left: 65px;}
+    header {height: 7vh;padding-top: 10px;}
+    .controls {font-size: 1.3em;}
+    .controller {font-size: 1.3em;}
+    #help, #result {font-size: 1.2em;}
+    #clue {font-size: 1.6em;}
+    #hinter {width:35vw;}
+}
+
+@media screen and (min-width: 500px) and (min-height: 900px) {
+  header {font-size: 2em;height: auto}
+    #research {margin-left: 18vw;}
+    #menubar {font-size: 1.3em;}
+    #research {font-size: 1.8em;margin-left: 24vw;}
+    #clue {font-size: 2em;}
+    #trial {font-size: 1.9em; height: 4vh;margin-left: 13vw;}
+    .controls {font-size: 1.7em;margin-left: 20vw;}
+    .controller {font-size: 1.7em;margin-left: 20vw;}
+    #check , #hinter {width:25vw;}
+    #space, #backspace {width:25vw;}
+    #options {font-size: 1.7em;margin-left: 16vw;}
+    .inputx {height:60px;width:50px;font-size: 3em;margin-top:20px;}
+    .entry {margin-right: 6vw;}
+    #result, #help {font-size: 2em; font-weight: bold;margin-left: 27vw;}
+}
+
+@media screen and (min-width: 750px) and (min-height: 1000px){
+
+    #sociallinks {padding-top: 70px;padding-right: 40px;}
+    .inputx {height:60px;width:50px;font-size: 3em;margin-top:20px;}
+    #options {margin-left: 5vw;}
+    #options div {height:60px}
+    .entry {height: 50px;}
+    #hinter {margin-left: -110px;}
+    #help {margin-left: 10px;}
+    .side-nav{width:70vw;}
+    .side-nav .collapsible-header {height:2em;}
+    #switch1, #darktheme {zoom:2;}
+    h5 {font-size:1.5em}
+}*/
