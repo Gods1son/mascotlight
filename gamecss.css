@@ -448,7 +448,7 @@ button.accordion.active:after {
 #videoopen {
      width: 100vw;
     margin-top: 50%;
-    margin-bottom: 50%;
+    margin-bottom: 90%;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -458,11 +458,13 @@ button.accordion.active:after {
     .label{font-size: 1.8em;}
     .result{font-size: 1.8em;}
     .inputx{width:50px;height:50px;text-align: center;font-size: 2.2em;}
-    .col.s2{height:60px;}
+    .row .col.s2{height:70px;}
     #hinter123{font-size: 2.5em;height: 60px;}
     #help{font-size: 2em;}
     #result{font-size: 2em;}
-    #imgholder123{height: 120px;}
+    #imgholder123{height: 15vh;}
+    .entry123{font-size: 2.5em;font-weight: 700;}
+    #options{margin-left: 50px;}
 }
 
 /*
