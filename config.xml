@@ -19,9 +19,9 @@
     <preference name="permissions" value="none"/>
     <plugin name="cordova-plugin-splashscreen" source="npm" />
     <content src="index.html" />
-    <icon height="48" src="images/android-icon-48x48.jpg" width="48"/>
-    <icon height="48" platform="android" src="images/android-icon-48x48.jpg" width="48"/>
-    <icon height="48" platform="ios" src="images/android-icon-48x48.jpg" width="48"/>
+    <icon height="48" src="images/android-icon-48x48.png" width="48"/>
+    <icon height="48" platform="android" src="images/android-icon-48x48.png" width="48"/>
+    <icon height="48" platform="ios" src="images/android-icon-48x48.png" width="48"/>
     <icon height="48" platform="windows" src="images/android-icon-48x48.jpg" width="48"/>
     <splash platform="android" qualifier="port-ldpi" src="res/screen/android/screen-ldpi-portrait.png" />
     <splash platform="android" qualifier="port-mdpi" src="res/screen/android/screen-mdpi-portrait.png" />
