@@ -447,7 +447,7 @@ clue:'olyefaraadenis',
 link:'https://en.wikipedia.org/wiki/Paul_Adefarasin'
 },
 {
-src:'images/jidenna.jpg',
+src:'images/jidena.jpg',
 title:'jidenna',
 hint:'Bambi',
 clue:'okunleannaejdi',
