@@ -1021,7 +1021,7 @@ clue:'aopqyesdofhsln',
 link:'https://en.wikipedia.org/wiki/Antonio_Deinde_Fernandez'
 },
 {
-src:'images/paint.jpg',
+src:'images/painter.jpg',
 title:'paint',
 hint:'The tool they use',
 clue:'apowyskaitlknp',
