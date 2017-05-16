@@ -552,7 +552,7 @@ clue:'oldqspindjallc',
 link:'https://en.wikipedia.org/wiki/DJ_Spinall'
 },
 {
-src:'images/olajuwon.jpg',
+src:'images/olujuwon.jpg',
 title:'olajuwon',
 hint:'The Dream',
 clue:'woqljulaoonwlq',
